@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+
+h1, h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select { /* Added 'select' here */
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding doesn't push it wider */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.turf-item {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.turf-item h3 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+.turf-item p {
+    margin: 5px 0;
+}
+
+.turf-item .actions button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.turf-item .actions .delete-btn {
+    background-color: #dc3545;
+}
+
+.turf-item .actions .delete-btn:hover {
+    background-color: #c82333;
+}
+
+#turfsContainer p {
+    font-style: italic;
+    color: #666;
+}
+
+/* Booking specific styles */
+.booking-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.booking-item h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.booking-item .approve-btn {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.booking-item .approve-btn:hover {
+    background-color: #218838;
+}
+
+.booking-item .reject-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.booking-item .reject-btn:hover {
+    background-color: #e0a800;
+}
